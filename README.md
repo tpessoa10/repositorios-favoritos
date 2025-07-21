@@ -1,19 +1,32 @@
-✅ Funcionalidades:
+# 🔍 GitHub Repositórios Favoritos
 
-Buscar e salvar repositórios de interesse (com persistência local).
+Um pequeno projeto desenvolvido com **React** que permite buscar, salvar e visualizar repositórios do GitHub, além de listar suas **issues públicas** em tempo real.
 
-Exibir uma lista de issues atualizada de cada repositório salvo.
+## ✅ Funcionalidades
 
-Consumo dinâmico da API do GitHub.
+- 🔎 **Busca e salvamento de repositórios** (com persistência local usando `localStorage`)
+- 🐞 **Listagem de issues** atualizadas de cada repositório salvo
+- 🔄 **Consumo dinâmico** da API do GitHub com tratamento de erros e carregamento
 
-💻 Tecnologias utilizadas:
+## 💻 Tecnologias Utilizadas
 
-React (com hooks e componentes funcionais)
+- ⚛️ **React** – com hooks e componentes funcionais
+- 🌐 **Axios** – para requisições HTTP
+- 📦 **React Router** – para navegação entre páginas
+- 💾 **LocalStorage** – para armazenar repositórios salvos
+- 🔧 **API REST do GitHub**
 
-Axios para requisições HTTP
+## 🧪 Como executar o projeto
 
-React Router para navegação
+```bash
+# Clone o repositório
+https://github.com/tpessoa10/repositorios-favoritos.git
+cd repositorios-favoritos
 
-LocalStorage para persistência dos repositórios
+# Instale as dependências
+npm install
 
-API REST do GitHub
+# Inicie o servidor de desenvolvimento
+npm run dev
+# ou
+npm start
